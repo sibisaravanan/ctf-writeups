@@ -3,6 +3,7 @@
 This is a writeup for the Photon Lockdown box from Hack the Box.
 
 Type: Challenge
+Difficulty: Very Easy
 HTB Link: [Photon Lockdown](https://app.hackthebox.com/challenges/Photon%2520Lockdown)
 
 ## Solution
@@ -35,7 +36,7 @@ Now we can extract the file system.
 unsquashfs -d squashfs-root rootfs
 ```
 
-This will extrac the files into the directory `squashfs-root`.
+This will extract the files into the directory `squashfs-root`.
 
 ```bash
 cd rootfs
@@ -43,7 +44,7 @@ cd rootfs
 
 The typical hackthebox flag format was given as `HTB{}`
 
-Hence we can go a Ripgrep for the flag.
+Hence we can go a `ripgrep` for the flag.
 
 ```bash
 rg "HTB"
