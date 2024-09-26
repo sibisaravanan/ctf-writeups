@@ -2,8 +2,8 @@
 
 This is a writeup for the Photon Lockdown box from Hack the Box.
 
-Type: Challenge
-Difficulty: Very Easy
+Type: Challenge  
+Difficulty: Very Easy  
 HTB Link: [Photon Lockdown](https://app.hackthebox.com/challenges/Photon%2520Lockdown)
 
 ## Solution
